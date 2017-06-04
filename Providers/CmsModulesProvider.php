@@ -1,10 +1,10 @@
 <?php
 
-namespace Cms\Modules\Core\Providers;
+namespace App\Modules\Core\Providers;
 
 use Illuminate\Support\ServiceProvider;
 use Illuminate\Foundation\AliasLoader;
-use Cms\Modules\Core\Services\BladeExtender;
+use App\Modules\Core\Services\BladeExtender;
 
 class CmsModulesProvider extends ServiceProvider
 {
@@ -19,7 +19,7 @@ class CmsModulesProvider extends ServiceProvider
         $this->app->register('Nwidart\Modules\LaravelModulesServiceProvider');
 
         // if social module installed, load the socialite service provider
-        $class = 'Cms\Modules\Social\Providers\RegisterSocialitesProvider';
+        $class = 'App\Modules\Social\Providers\RegisterSocialitesProvider';
         if (class_exists($class)) {
             $this->app->register($class);
         }

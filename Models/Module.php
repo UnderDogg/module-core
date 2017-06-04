@@ -1,6 +1,6 @@
 <?php
 
-namespace Cms\Modules\Core\Models;
+namespace App\Modules\Core\Models;
 
 use Illuminate\Contracts\Support\Arrayable;
 use Illuminate\Contracts\Support\Jsonable;

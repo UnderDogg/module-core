@@ -1,10 +1,10 @@
 <?php
 
-namespace Cms\Modules\Core\Providers;
+namespace App\Modules\Core\Providers;
 
 class CoreRoutingProvider extends CmsRoutingProvider
 {
-    protected $namespace = 'Cms\Modules\Core\Http\Controllers';
+    protected $namespace = 'App\Modules\Core\Http\Controllers';
 
     /**
      * @return string

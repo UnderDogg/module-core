@@ -1,6 +1,6 @@
 <?php
 
-namespace Cms\Modules\Core\Exceptions;
+namespace App\Modules\Core\Exceptions;
 
 class InMaintenanceException extends \Exception
 {

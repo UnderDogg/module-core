@@ -1,6 +1,6 @@
 <?php
 
-namespace Cms\Modules\Core\Console\Commands;
+namespace App\Modules\Core\Console\Commands;
 
 use Carbon\Carbon;
 use Schema;

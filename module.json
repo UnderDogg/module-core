@@ -12,9 +12,9 @@
     "active": 1,
     "order": 0,
     "providers": [
-        "Cms\\Modules\\Core\\Providers\\CoreModuleServiceProvider",
-        "Cms\\Modules\\Core\\Providers\\CmsConfigProvider",
-        "Cms\\Modules\\Core\\Providers\\CoreRoutingProvider",
+        "App\\Modules\\Core\\Providers\\CoreModuleServiceProvider",
+        "App\\Modules\\Core\\Providers\\CmsConfigProvider",
+        "App\\Modules\\Core\\Providers\\CoreRoutingProvider",
         "Dingo\\Api\\Provider\\LaravelServiceProvider",
         "Collective\\Html\\HtmlServiceProvider",
         "Teepluss\\Theme\\ThemeServiceProvider",

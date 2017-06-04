@@ -1,6 +1,6 @@
 <?php
 
-namespace Cms\Modules\Core\Composers;
+namespace App\Modules\Core\Composers;
 
 use Route;
 

@@ -1,8 +1,8 @@
 <?php
 
-namespace Cms\Modules\Core\Services;
+namespace App\Modules\Core\Services;
 
-use Cms\Modules\Core\Models\Navigation;
+use App\Modules\Core\Models\Navigation;
 use Menu\Menu;
 
 class NavigationService

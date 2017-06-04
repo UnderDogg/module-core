@@ -1,6 +1,6 @@
 <?php
 
-namespace Cms\Modules\Core\Providers;
+namespace App\Modules\Core\Providers;
 
 use Illuminate\Support\ServiceProvider;
 use Illuminate\Routing\Router;
@@ -86,7 +86,7 @@ class BaseModuleProvider extends ServiceProvider
                 continue;
             }
             foreach ($middlewares as $name => $middleware) {
-                $class = sprintf('Cms\Modules\%s\Http\Middleware\%s', $module, $middleware);
+                $class = sprintf('App\Modules\%s\Http\Middleware\%s', $module, $middleware);
                 $router->middleware($name, $class);
             }
         }
@@ -108,7 +108,7 @@ class BaseModuleProvider extends ServiceProvider
 
             foreach ($commands as $command => $class) {
                 $this->app[$command] = $this->app->share(function () use ($module, $class) {
-                    $class = sprintf('Cms\Modules\%s\Console\Commands\%s', $module, $class);
+                    $class = sprintf('App\Modules\%s\Console\Commands\%s', $module, $class);
 
                     return new $class($this->app);
                 });
@@ -159,7 +159,7 @@ class BaseModuleProvider extends ServiceProvider
                     $views = [$views];
                 }
 
-                $class = sprintf('Cms\Modules\%1$s\Composers\%2$s', $module, $class);
+                $class = sprintf('App\Modules\%1$s\Composers\%2$s', $module, $class);
                 view()->composer($views, $class);
             }
         }

@@ -1,6 +1,6 @@
 <?php
 
-namespace Cms\Modules\Core\Traits;
+namespace App\Modules\Core\Traits;
 
 trait LinkableTrait
 {

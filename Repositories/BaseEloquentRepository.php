@@ -1,11 +1,11 @@
 <?php
 
-namespace Cms\Modules\Core\Repositories;
+namespace App\Modules\Core\Repositories;
 
 use Illuminate\Database\Eloquent\Collection;
 use Illuminate\Container\Container as App;
 use Illuminate\Database\Eloquent\Model;
-use Cms\Modules\Core\Exceptions\RepositoryException;
+use App\Modules\Core\Exceptions\RepositoryException;
 
 abstract class BaseEloquentRepository implements BaseRepositoryInterface
 {

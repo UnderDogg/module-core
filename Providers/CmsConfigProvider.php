@@ -1,9 +1,9 @@
 <?php
 
-namespace Cms\Modules\Core\Providers;
+namespace App\Modules\Core\Providers;
 
 use Illuminate\Support\ServiceProvider;
-use Cms\Modules\Core;
+use App\Modules\Core;
 use Cache;
 use Config;
 use Schema;

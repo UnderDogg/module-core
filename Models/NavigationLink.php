@@ -1,6 +1,6 @@
 <?php
 
-namespace Cms\Modules\Core\Models;
+namespace App\Modules\Core\Models;
 
 class NavigationLink extends BaseModel
 {

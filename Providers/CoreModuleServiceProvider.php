@@ -1,6 +1,6 @@
 <?php
 
-namespace Cms\Modules\Core\Providers;
+namespace App\Modules\Core\Providers;
 
 use Nwidart\Modules\Module;
 

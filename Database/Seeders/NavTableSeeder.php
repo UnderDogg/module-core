@@ -1,10 +1,10 @@
 <?php
 
-namespace Cms\Modules\Core\Database\Seeders;
+namespace App\Modules\Core\Database\Seeders;
 
 use Carbon\Carbon;
-use Cms\Modules\Core\Models\Navigation;
-use Cms\Modules\Core\Models\NavigationLink;
+use App\Modules\Core\Models\Navigation;
+use App\Modules\Core\Models\NavigationLink;
 use Illuminate\Database\Seeder;
 
 class NavTableSeeder extends Seeder

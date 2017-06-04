@@ -1,6 +1,6 @@
 <?php
 
-namespace Cms\Modules\Core\Http\Controllers\Frontend;
+namespace App\Modules\Core\Http\Controllers\Frontend;
 
 class PagesController extends BaseCoreController
 {

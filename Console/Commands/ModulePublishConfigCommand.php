@@ -1,6 +1,6 @@
 <?php
 
-namespace Cms\Modules\Core\Console\Commands;
+namespace App\Modules\Core\Console\Commands;
 
 use Illuminate\Console\Command;
 use Symfony\Component\Console\Input\InputOption;
@@ -14,7 +14,7 @@ class ModulePublishConfigCommand extends Command
     public function fire()
     {
         $options = [
-            '--provider' => 'Cms\Modules\Core\Providers\CoreModuleServiceProvider',
+            '--provider' => 'App\Modules\Core\Providers\CoreModuleServiceProvider',
         ];
 
         if ($this->option('force', false)) {

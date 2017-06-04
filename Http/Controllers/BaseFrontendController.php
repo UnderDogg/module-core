@@ -1,6 +1,6 @@
 <?php
 
-namespace Cms\Modules\Core\Http\Controllers;
+namespace App\Modules\Core\Http\Controllers;
 
 class BaseFrontendController extends BaseController
 {
