@@ -1,14 +1,14 @@
 {
     "name": "Core",
     "alias": "core",
-    "description": "Core Module for Phoenix CMS v1",
+    "description": "Core Module for CleanSoft v5.4",
     "authors": [
         { "name": "xLink (Dan Aldridge)", "email": "xLink@cybershade.org" }
     ],
     "keywords": [
         "core-module"
     ],
-    "version": "v1.0.0",
+    "version": "v5.4.0",
     "active": 1,
     "order": 0,
     "providers": [
